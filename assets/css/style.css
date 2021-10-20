@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* HEADER & NAV STYLES */
+
+
+  /* HERO STYLES */
+
+  .hero {
+      background-image: url("../images/hero.jpg");
+  }
