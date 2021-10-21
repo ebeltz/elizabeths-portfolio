@@ -6,14 +6,78 @@
   
   body {
     color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   /* HEADER & NAV STYLES */
 
+  header {
+      background-color: #333333;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 15px;
+      position: relative;
+  }
+
+  .name {
+    background-color: #66b2b2;
+    padding: 5px 10px 0px 65px;
+    height: 60px;
+  }
+
+  .name h1 {
+      font-size: 50px;
+      color: #333333;
+      font-weight: 550;
+  }
+
+  header a {
+      color: #66b2b2;
+      text-decoration: none;
+  }
+
+  header nav {
+      margin: 20px 0;
+  }
+
+  header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+  }
+
+  header nav ul li a {
+      padding: 10px 20px;
+      font-weight: lighter;
+      font-size: 1.55vw;
+      border-bottom: #66b2b2 solid 5px;
+  }
+
+  header div {
+      padding: 0px 5px;
+  }
 
   /* HERO STYLES */
 
   .hero {
       background-image: url("../images/hero.jpg");
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      background-attachment: fixed;
+      background-position: 80%;
+      padding: 90px;
+      position: relative;
+  }
+
+  .hero h2 {
+      background-color: #66b2b2;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      margin: 20px;
   }
