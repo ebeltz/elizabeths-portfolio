@@ -81,3 +81,78 @@
       bottom: 0;
       margin: 20px;
   }
+
+  /* STYLE ALL SECTION TAGS */
+
+  section {
+      padding: 60px;
+  }
+
+  .section-header {
+    display: inline-flex;
+    width: fit-content;
+    margin: 0;
+  }
+
+  .section-header h2 {
+      color: #1E3F66;
+      font-size: 50px;
+      padding: 10px;
+      display: inline-flex;
+      text-align: right;
+  }
+
+  /* ABOUT ME STYLES */
+
+  .about-me {
+      display: flex;
+  }
+
+  .avatar img {
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 20%;
+
+  }
+
+  .about-me-text {
+    border-left: solid #1E3F66 4px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .about-me-text p {
+      color: #1E3F66;
+      line-height: 1.6;
+  }
+  
+
+  /* WORK STYLES */
+
+  .work {
+      display: flex;
+  }
+
+  .portfolio {
+    border-left: solid #1E3F66 4px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  /* CONTACT ME STYLES */
+
+  .contact-me {
+      display: flex;
+  }
+
+  .contact-me-text {
+    border-left: solid #1E3F66 4px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
