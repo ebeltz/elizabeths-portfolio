@@ -96,7 +96,7 @@
 
   .section-header h2 {
       color: #1E3F66;
-      font-size: 50px;
+      font-size: 45px;
       padding: 10px;
       display: inline-flex;
       text-align: right;
@@ -147,6 +147,7 @@
 
   .contact-me {
       display: flex;
+      flex-wrap: wrap;
   }
 
   .contact-me-text {
@@ -154,5 +155,31 @@
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-between;
   }
+
+  .contact-me-text ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;   
+  }
+
+  .contact-me-text a {
+      text-decoration: none;
+      color: #1E3F66;
+  }
+
+  .contact-me-text ul li a {
+    padding: 10px 20px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: #1E3F66 solid 5px;
+    justify-content: space-between;
+  }
+
+  .contact-me-text div {
+    padding: 0px 40px;
+}
+
