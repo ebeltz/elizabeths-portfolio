@@ -80,6 +80,7 @@
       position: absolute;
       bottom: 0;
       margin: 20px;
+      color: #333333;
   }
 
   /* STYLE ALL SECTION TAGS */
@@ -92,14 +93,15 @@
     display: inline-flex;
     width: fit-content;
     margin: 0;
+    border-right: solid #1E3F66 4px;
   }
 
   .section-header h2 {
       color: #1E3F66;
       font-size: 45px;
       padding: 10px;
-      display: inline-flex;
       text-align: right;
+      width: 188px;
   }
 
   /* ABOUT ME STYLES */
@@ -112,7 +114,6 @@
       display: inline-flex;
       flex-wrap: wrap;
       width: 20%;
-
   }
 
   .about-me-text {
@@ -120,7 +121,6 @@
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
-
   }
 
   .about-me-text p {
@@ -140,8 +140,93 @@
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
-
   }
+
+  .run-buddy img{
+      width: 1344px;
+      border: #66b2b2 solid 4px;
+      height: 350px;
+      margin-bottom: 10px;
+      position: relative;
+      opacity: .6;
+  }
+
+  .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img{
+    width: 666px;
+    border: #66b2b2 solid 4px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 150px;
+    margin-bottom: 10px;
+    position: relative;
+    opacity: .7;
+  }
+
+  .robot-gladiators, .silver-laser {
+      margin-right: 10px;
+  }
+
+  .run-buddy div{
+      background-color: #66b2b2;
+      position: absolute;
+      bottom: -150px;
+      padding: 10px;
+  }
+
+  .robot-gladiators div {
+    background-color: #66b2b2;
+    position: absolute;
+    bottom: -300px;
+    padding: 10px;
+  }
+
+  .silver-laser div {
+      background-color: #66b2b2;
+      position: absolute;
+      bottom: -475px;
+      padding: 10px;
+  }
+
+  .puzzle div {
+    background-color: #66b2b2;
+    position: absolute;
+    bottom: -300px;
+    padding: 10px;
+  }
+
+  .rain-report div {
+    background-color: #66b2b2;
+    position: absolute;
+    bottom: -475px;
+    padding: 10px;
+  }
+
+  .portfolio-text h3 {
+      font-size: 20px;
+      color: #333333;
+      text-decoration: none;
+  }
+
+  .portfolio-text p {
+      color: #333333;
+      text-decoration: none;
+      font-size: 15px;
+  }
+
+  .rain-report a:link, .robot-gladiators a:link, .silver-laser a:link, .puzzle a:link, .run-buddy a:link {
+      text-decoration: none;
+      color: #333333;
+  }
+
+  .rain-report a:visited, .robot-gladiators a:visited, .silver-laser a:visited, .puzzle a:visited, .run-buddy a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+  .rain-report img:hover, .robot-gladiators img:hover, .silver-laser img:hover, .puzzle img:hover, .run-buddy img:hover {
+      opacity: 1;
+}
+
 
   /* CONTACT ME STYLES */
 
