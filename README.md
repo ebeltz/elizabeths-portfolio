@@ -1,11 +1,11 @@
 # Elizabeth's Portfolio
 
 ## Website
-To make this website more accessible, I have made sure that all images have have alt attribute attached. I have also made sure that all headers attributes are in the correct order. The index.html file has HTML semantic elements. The website has a concise and descriptive title. Plus, all of the elements follow a logical structure. I consolidated the CSS file and added comments to help with the organization of the coding elements for the website. 
+This website was created to display my portfolio for future employers to look at. I started this website by adding all of the HTML first and then added the CSS afterwards. All of the projects on this website are linked to the actual final live project. I have added media queries to make this website responsive for all sized windows. All of the images on the website do have attributes attached. Also, my resume is linked as well to my website.
 
 ## Screenshots
-![Screenshot #1](https://github.com/ebeltz/horiseon-refactor/blob/main/assets/images/screenshot-1.png)
-![Screenshot #2](https://github.com/ebeltz/horiseon-refactor/blob/main/assets/images/screenshot-2.png)
+![Screenshot #1](https://github.com/ebeltz/elizabeths-portfolio/blob/main/assets/images/screenshot-1.png)
+![Screenshot #2](https://github.com/ebeltz/elizabeths-portfolio/blob/main/assets/images/screenshot-2.png)
 
 ## Built With
 * HTML
