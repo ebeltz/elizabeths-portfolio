@@ -93,7 +93,7 @@
     display: inline-flex;
     width: fit-content;
     margin: 0;
-    border-right: solid #1E3F66 4px;
+    border-right: solid #1E3F66 8px;
   }
 
   .section-header h2 {
@@ -117,7 +117,6 @@
   }
 
   .about-me-text {
-    border-left: solid #1E3F66 4px;
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -136,23 +135,22 @@
   }
 
   .portfolio {
-    border-left: solid #1E3F66 4px;
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
   }
 
   .run-buddy img{
-      width: 1344px;
+      max-width: 1344px;
       border: #66b2b2 solid 4px;
       height: 350px;
       margin-bottom: 10px;
       position: relative;
-      opacity: .6;
+      opacity: .7;
   }
 
   .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img{
-    width: 666px;
+    width: 567px;
     border: #66b2b2 solid 4px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -166,38 +164,39 @@
       margin-right: 10px;
   }
 
-  .run-buddy div{
+  .run-buddy div {
       background-color: #66b2b2;
       position: absolute;
-      bottom: -150px;
+      bottom: -5%;
       padding: 10px;
   }
 
   .robot-gladiators div {
     background-color: #66b2b2;
     position: absolute;
-    bottom: -300px;
+    bottom: -35%;
     padding: 10px;
+    z-index: 999;
   }
 
-  .silver-laser div {
+  .silver-laser div{
       background-color: #66b2b2;
       position: absolute;
-      bottom: -475px;
+      bottom: -50%;
       padding: 10px;
   }
 
   .puzzle div {
     background-color: #66b2b2;
     position: absolute;
-    bottom: -300px;
+    bottom: -35%;
     padding: 10px;
   }
 
   .rain-report div {
     background-color: #66b2b2;
     position: absolute;
-    bottom: -475px;
+    bottom: -50%;
     padding: 10px;
   }
 
@@ -236,7 +235,6 @@
   }
 
   .contact-me-text {
-    border-left: solid #1E3F66 4px;
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -268,3 +266,7 @@
     padding: 0px 40px;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+}
