@@ -60,6 +60,10 @@
       padding: 0px 5px;
   }
 
+  .resume {
+      display: flex;
+  }
+
   /* HERO STYLES */
 
   .hero {
@@ -236,7 +240,7 @@
 
   .contact-me-text {
     padding-left: 20px;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -268,5 +272,118 @@
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    header nav ul li a {
+        font-size: 12px;
+        padding: 7px;
+    }
 
+    .run-buddy img {
+        max-width: 642px;
+    }
+
+    .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img {
+        max-width: 315px;
+    }
+
+    .run-buddy div {
+        bottom: -25%;
+    }
+
+    .robot-gladiators div, .puzzle div {
+        bottom: -55%;
+    }
+
+    .silver-laser div, .rain-report div {
+        bottom: -75%;
+    }
+
+    .contact-me-text div {
+        padding: 0px 5px;
+    }
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        padding: 7px;
+    }
+
+    .run-buddy img {
+        max-width: 432px;
+    }
+
+    .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img {
+        max-width: 211px;
+    }
+
+    .run-buddy div {
+        bottom: -45%;
+    }
+
+    .robot-gladiators div, .puzzle div {
+        bottom: -75%;
+    }
+
+    .silver-laser div, .rain-report div {
+        bottom: -95%;
+    }
+
+    .contact-me-text ul li a {
+        padding: 5px 5px;
+    }
+
+    .contact-me-text div {
+        padding: 0px 5px;
+        flex-wrap: wrap;
+        display: inline-flex;
+    }
+}
+
+
+ /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+ @media screen and (max-width: 575px) {
+    header nav ul li a {
+        padding: 7px;
+    }
+
+    .run-buddy img {
+        max-width: 239px;
+        height: 200px;
+    }
+
+    .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img {
+        max-width: 239px;
+
+    }
+
+    .run-buddy div {
+        bottom: -70%;
+    }
+
+    .robot-gladiators div{
+        bottom: -90%;
+    }
+
+    .puzzle div {
+        bottom: -110%;
+    }
+
+    .silver-laser div{
+        bottom: -130%;
+    }
+
+    .rain-report div {
+        bottom: -150%;
+    }
+
+    .contact-me-text ul li a {
+        padding: 0px 1px;
+        font-size: 8px;
+    }
+
+    .contact-me-text div {
+        padding: 0px 1px;
+        flex-wrap: wrap;
+        display: inline-flex;
+    }
+ }
