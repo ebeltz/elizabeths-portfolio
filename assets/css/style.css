@@ -153,7 +153,7 @@
       opacity: .7;
   }
 
-  .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img{
+  .rain-report img, .robot-gladiators img, .silver-laser img, .meal-crafter img{
     width: 567px;
     border: #66b2b2 solid 4px;
     display: inline-flex;
@@ -190,7 +190,7 @@
       padding: 10px;
   }
 
-  .puzzle div {
+  .meal-crafter div {
     background-color: #66b2b2;
     position: absolute;
     bottom: -35%;
@@ -216,17 +216,17 @@
       font-size: 15px;
   }
 
-  .rain-report a:link, .robot-gladiators a:link, .silver-laser a:link, .puzzle a:link, .run-buddy a:link {
+  .rain-report a:link, .robot-gladiators a:link, .silver-laser a:link, .meal-crafter a:link, .run-buddy a:link {
       text-decoration: none;
       color: #333333;
   }
 
-  .rain-report a:visited, .robot-gladiators a:visited, .silver-laser a:visited, .puzzle a:visited, .run-buddy a:visited {
+  .rain-report a:visited, .robot-gladiators a:visited, .silver-laser a:visited, .meal-crafter a:visited, .run-buddy a:visited {
     text-decoration: none;
     color: #333333;
 }
 
-  .rain-report img:hover, .robot-gladiators img:hover, .silver-laser img:hover, .puzzle img:hover, .run-buddy img:hover {
+  .rain-report img:hover, .robot-gladiators img:hover, .silver-laser img:hover, .meal-crafter img:hover, .run-buddy img:hover {
       opacity: 1;
 }
 
@@ -281,7 +281,7 @@
         max-width: 642px;
     }
 
-    .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img {
+    .rain-report img, .robot-gladiators img, .silver-laser img, .meal-crafter img {
         max-width: 315px;
     }
 
@@ -289,7 +289,7 @@
         bottom: -25%;
     }
 
-    .robot-gladiators div, .puzzle div {
+    .robot-gladiators div, .meal-crafter div {
         bottom: -55%;
     }
 
@@ -312,7 +312,7 @@
         max-width: 432px;
     }
 
-    .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img {
+    .rain-report img, .robot-gladiators img, .silver-laser img, .meal-crafter img {
         max-width: 211px;
     }
 
@@ -320,7 +320,7 @@
         bottom: -45%;
     }
 
-    .robot-gladiators div, .puzzle div {
+    .robot-gladiators div, .meal-crafter div {
         bottom: -75%;
     }
 
@@ -351,7 +351,7 @@
         height: 200px;
     }
 
-    .rain-report img, .robot-gladiators img, .silver-laser img, .puzzle img {
+    .rain-report img, .robot-gladiators img, .silver-laser img, .meal-crafter img {
         max-width: 239px;
 
     }
@@ -364,7 +364,7 @@
         bottom: -90%;
     }
 
-    .puzzle div {
+    .meal-crafter div {
         bottom: -110%;
     }
 
