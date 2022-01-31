@@ -153,7 +153,7 @@
       opacity: .7;
   }
 
-  .rain-report img, .weather-dashboard img, .silver-laser img, .meal-crafter img{
+  .rain-report img, .weather-dashboard img, .wine-share img, .meal-crafter img{
     width: 567px;
     border: #66b2b2 solid 4px;
     display: inline-flex;
@@ -164,7 +164,7 @@
     opacity: .7;
   }
 
-  .weather-dashboard, .silver-laser {
+  .weather-dashboard, .wine-share {
       margin-right: 10px;
   }
 
@@ -183,7 +183,7 @@
     z-index: 999;
   }
 
-  .silver-laser div{
+  .wine-share div{
       background-color: #66b2b2;
       position: absolute;
       bottom: -50%;
@@ -216,17 +216,17 @@
       font-size: 15px;
   }
 
-  .rain-report a:link, .weather-dashboard a:link, .silver-laser a:link, .meal-crafter a:link, .run-buddy a:link {
+  .rain-report a:link, .weather-dashboard a:link, .wine-share a:link, .meal-crafter a:link, .run-buddy a:link {
       text-decoration: none;
       color: #333333;
   }
 
-  .rain-report a:visited, .weather-dashboard a:visited, .silver-laser a:visited, .meal-crafter a:visited, .run-buddy a:visited {
+  .rain-report a:visited, .weather-dashboard a:visited, .wine-share a:visited, .meal-crafter a:visited, .run-buddy a:visited {
     text-decoration: none;
     color: #333333;
 }
 
-  .rain-report img:hover, .weather-dashboard img:hover, .silver-laser img:hover, .meal-crafter img:hover, .run-buddy img:hover {
+  .rain-report img:hover, .weather-dashboard img:hover, .wine-share img:hover, .meal-crafter img:hover, .run-buddy img:hover {
       opacity: 1;
 }
 
@@ -281,7 +281,7 @@
         max-width: 642px;
     }
 
-    .rain-report img, .weather-dashboard img, .silver-laser img, .meal-crafter img {
+    .rain-report img, .weather-dashboard img, .wine-share img, .meal-crafter img {
         max-width: 315px;
     }
 
@@ -293,7 +293,7 @@
         bottom: -55%;
     }
 
-    .silver-laser div, .rain-report div {
+    .wine-share div, .rain-report div {
         bottom: -75%;
     }
 
@@ -312,7 +312,7 @@
         max-width: 432px;
     }
 
-    .rain-report img, .weather-dashboard img, .silver-laser img, .meal-crafter img {
+    .rain-report img, .weather-dashboard img, .wine-share img, .meal-crafter img {
         max-width: 211px;
     }
 
@@ -324,7 +324,7 @@
         bottom: -75%;
     }
 
-    .silver-laser div, .rain-report div {
+    .wine-share div, .rain-report div {
         bottom: -95%;
     }
 
@@ -351,7 +351,7 @@
         height: 200px;
     }
 
-    .rain-report img, .weather-dashboard img, .silver-laser img, .meal-crafter img {
+    .rain-report img, .weather-dashboard img, .wine-share img, .meal-crafter img {
         max-width: 239px;
 
     }
@@ -368,7 +368,7 @@
         bottom: -110%;
     }
 
-    .silver-laser div{
+    .wine-share div{
         bottom: -130%;
     }
 
